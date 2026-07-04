@@ -1,0 +1,29 @@
+{
+  "name": "engineering-skills-for-codex",
+  "version": "0.1.0",
+  "description": "Codex-native engineering workflows adapted from mattpocock/skills",
+  "author": {
+    "name": "Rodrigo Asencios",
+    "url": "https://github.com/rodrigoase"
+  },
+  "homepage": "https://github.com/rodrigoase/engineering-skills-for-codex",
+  "repository": "https://github.com/rodrigoase/engineering-skills-for-codex",
+  "license": "MIT",
+  "keywords": ["codex", "engineering", "agent-skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Engineering Skills for Codex",
+    "shortDescription": "Codex-native engineering workflows from Matt Pocock's skills",
+    "longDescription": "Planning, investigation, architecture, implementation, review, and handoff workflows adapted for OpenAI Codex.",
+    "developerName": "Rodrigo Asencios",
+    "category": "Developer Tools",
+    "capabilities": ["Plan", "Write", "Review"],
+    "websiteURL": "https://github.com/rodrigoase/engineering-skills-for-codex",
+    "defaultPrompt": [
+      "Use $ask-matt to choose the right engineering workflow.",
+      "Use $code-review to review this branch against its spec.",
+      "Use $diagnosing-bugs to find the cause of this failure."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Triage"
+  short_description: "incoming issues or external pull requests need evaluation, clarification, categorization, or an "
+  default_prompt: "Use $triage for this task."
+policy:
+  allow_implicit_invocation: false

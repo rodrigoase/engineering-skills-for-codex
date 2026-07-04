@@ -1,0 +1,6 @@
+interface:
+  display_name: "Diagnosing Bugs"
+  short_description: "diagnosing hard bugs, test failures, intermittent behavior, thrown errors, or performance regres"
+  default_prompt: "Use $diagnosing-bugs for this task."
+policy:
+  allow_implicit_invocation: true

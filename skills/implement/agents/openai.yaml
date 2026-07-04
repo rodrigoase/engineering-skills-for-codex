@@ -1,0 +1,6 @@
+interface:
+  display_name: "Implement"
+  short_description: "implementing a defined piece of work from an approved PRD, specification, or issue."
+  default_prompt: "Use $implement for this task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Domain Modeling"
+  short_description: "sharpening domain terminology, resolving ambiguous language, maintaining a ubiquitous language, "
+  default_prompt: "Use $domain-modeling for this task."
+policy:
+  allow_implicit_invocation: true

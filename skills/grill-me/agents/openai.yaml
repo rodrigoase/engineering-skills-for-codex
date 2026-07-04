@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "the user explicitly wants a plan or design challenged through a rigorous interview outside a cod"
+  default_prompt: "Use $grill-me for this task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grilling"
+  short_description: "stress-testing a plan or design through one decision-bearing question at a time before implement"
+  default_prompt: "Use $grilling for this task."
+policy:
+  allow_implicit_invocation: true

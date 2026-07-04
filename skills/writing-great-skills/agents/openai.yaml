@@ -1,0 +1,6 @@
+interface:
+  display_name: "Writing Great Skills"
+  short_description: "writing, editing, reviewing, or splitting Agent Skills for Codex and deciding their invocation p"
+  default_prompt: "Use $writing-great-skills for this task."
+policy:
+  allow_implicit_invocation: false

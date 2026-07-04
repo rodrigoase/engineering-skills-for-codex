@@ -1,0 +1,6 @@
+interface:
+  display_name: "To Prd"
+  short_description: "a settled conversation needs to be synthesized into a PRD for the configured issue tracker witho"
+  default_prompt: "Use $to-prd for this task."
+policy:
+  allow_implicit_invocation: false

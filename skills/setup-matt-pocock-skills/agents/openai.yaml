@@ -1,0 +1,6 @@
+interface:
+  display_name: "Setup Matt Pocock Skills"
+  short_description: "configuring a repository's issue tracker, triage vocabulary, AGENTS.md guidance, and domain-docu"
+  default_prompt: "Use $setup-matt-pocock-skills for this task."
+policy:
+  allow_implicit_invocation: false

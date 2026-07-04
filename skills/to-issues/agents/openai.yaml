@@ -1,0 +1,6 @@
+interface:
+  display_name: "To Issues"
+  short_description: "an approved plan, specification, or PRD needs to be divided into independently implementable ver"
+  default_prompt: "Use $to-issues for this task."
+policy:
+  allow_implicit_invocation: false

@@ -1,11 +1,11 @@
-# Matt Pocock Skills
+# Engineering Skills for Codex
 
-A collection of agent skills (slash commands and behaviors) loaded by Claude Code. Skills are organized into buckets and consumed by per-repo configuration emitted by `/setup-matt-pocock-skills`.
+A Codex plugin adapting Matt Pocock's engineering workflows. Skills use a flat namespace and are consumed through `$skill-name` invocation or narrow implicit matching configured in `agents/openai.yaml`.
 
 ## Language
 
 **Issue tracker**:
-The tool that hosts a repo's issues — GitHub Issues, Linear, a local `.scratch/` markdown convention, or similar. Skills like `to-issues`, `to-prd`, `triage`, and `qa` read from and write to it.
+The tool that hosts a repo's issues — GitHub Issues, GitLab, a local `.scratch/` markdown convention, or similar. Skills like `to-issues`, `to-prd`, and `triage` read from and write to it.
 _Avoid_: backlog manager, backlog backend, issue host
 
 **Issue**:

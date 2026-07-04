@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codebase Design"
+  short_description: "designing or improving a module interface, locating seams, deepening shallow modules, or making "
+  default_prompt: "Use $codebase-design for this task."
+policy:
+  allow_implicit_invocation: true

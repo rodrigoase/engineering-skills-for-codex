@@ -1,0 +1,20 @@
+{
+  "name": "engineering-skills-for-codex",
+  "interface": {
+    "displayName": "Engineering Skills for Codex"
+  },
+  "plugins": [
+    {
+      "name": "engineering-skills-for-codex",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

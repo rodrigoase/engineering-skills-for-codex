@@ -1,0 +1,6 @@
+interface:
+  display_name: "Code Review"
+  short_description: "reviewing a branch, pull request, work-in-progress changes, or a diff since a fixed point agains"
+  default_prompt: "Use $code-review for this task."
+policy:
+  allow_implicit_invocation: true

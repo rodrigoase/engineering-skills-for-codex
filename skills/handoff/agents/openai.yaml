@@ -1,0 +1,6 @@
+interface:
+  display_name: "Handoff"
+  short_description: "preserving the current thread's state so work can continue in a fresh Codex thread or with anoth"
+  default_prompt: "Use $handoff for this task."
+policy:
+  allow_implicit_invocation: false
